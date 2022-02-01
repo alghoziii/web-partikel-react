@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ParticlesBg from "particles-bg";
 import "./App.css";
-import { FaGithub, FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaTiktok, FaShoppingCart } from "react-icons/fa";
 import TextLoop from "react-text-loop";
 import Typist from "react-typist";
 function App() {
@@ -51,21 +51,28 @@ function App() {
             </a>
           </div>
           <div className="mt-16">
-            <a className="btn_action bg_content" href="https://Linkedin.com/alghozii_zy">
+            <a className="btn_action bg_content" href="hhttps://www.linkedin.com/in/shobarudin-alghozi-550163217">
               <FaLinkedin />
               <span>Linkedin</span>
             </a>
           </div>
           <div className="mt-16">
-            <a className="btn_action bg_content" href="https://Linkedin.com/alghozii_zy">
+            <a className="btn_action bg_content" href="https://github.com/shobarudin">
               <FaGithub />
               <span>Github</span>
             </a>
           </div>
           <div className="mt-16">
-            <a className="btn_action bg_content" href="https://Linkedin.com/alghozii_zy">
+            <a className="btn_action bg_content" href="https://www.tiktok.com/@alghozi2204?lang=id-ID">
               <FaTiktok />
               <span>Tiktok</span>
+            </a>
+          </div>
+
+          <div className="mt-16">
+            <a className="btn_action bg_content" href="https://Shopee.com">
+              <FaShoppingCart />
+              <span>Shopee</span>
             </a>
           </div>
         </div>
