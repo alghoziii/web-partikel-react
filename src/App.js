@@ -8,7 +8,7 @@ function App() {
   const config_cursor = {
     show: true,
     blink: true,
-    element: "🐱‍🏍",
+    element: "",
     hideWhenDone: true,
   };
 
@@ -28,8 +28,6 @@ function App() {
                 <Typist.Delay ms={400} />
                 Web Developer | IT Consultant
                 <br></br>Terima Jasa Pembuatan Website
-                <Typist.Backspace count={8} delay={500} />
-                <span> Logo </span>
               </Typist>
             </div>
             <div className="bg_content rd_12 p_8 mt-16">
