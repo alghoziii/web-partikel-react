@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ParticlesBg from "particles-bg";
 import "./App.css";
-import { FaGithub, FaInstagram, FaLinkedin, FaTiktok, FaShoppingCart } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaTiktok, FaWhatsapp } from "react-icons/fa";
 import TextLoop from "react-text-loop";
 import Typist from "react-typist";
 function App() {
@@ -70,9 +70,9 @@ function App() {
           </div>
 
           <div className="mt-16">
-            <a className="btn_action bg_content" href="https://Shopee.com">
-              <FaShoppingCart />
-              <span>Shopee</span>
+            <a className="btn_action bg_content" href="https://api.whatsapp.com/send?phone=6282320093601">
+              <FaWhatsapp />
+              <span>Whatsapp</span>
             </a>
           </div>
         </div>
